@@ -155,7 +155,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/20 to-red-500/20 rounded-2xl"></div>
             <div className="relative w-full h-full bg-gradient-to-br from-yellow-300 via-red-400 to-blue-500 rounded-2xl overflow-hidden flex items-center justify-center hover:scale-105 transition-transform duration-500">
               <img
-                src="/about.png"
+                src="/hero.png"
                 alt="AS Pinturas - Colores vivos para transformar espacios"
                 className="w-full h-full object-cover"
               />
