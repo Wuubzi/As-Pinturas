@@ -144,7 +144,7 @@ export default function About() {
             }`}
           >
             <img
-              src="/2148137752.jpg"
+              src="/about.png"
               alt="Oficina Comercial Prisma"
               className="w-full h-full object-containt"
             />
