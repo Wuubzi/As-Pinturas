@@ -1,0 +1,57 @@
+# ---- Node ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# ---- Next.js ----
+.next/
+out/
+.next/cache/
+.next/static/
+
+# Build output
+dist/
+build/
+
+# ---- Env ----
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# ---- Logs ----
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# ---- Typescript ----
+*.tsbuildinfo
+
+# ---- Test ----
+coverage/
+.nyc_output/
+
+# ---- Misc ----
+.next-tmp/
+tmp/
+temp/
