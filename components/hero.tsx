@@ -36,9 +36,26 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-8">
+            {/* Logo Grande */}
+            <div
+              className={`flex justify-center md:justify-start mb-6 transition-all duration-1000 ${
+                isLoaded
+                  ? "opacity-100 scale-100 translate-y-0"
+                  : "opacity-0 scale-75 -translate-y-10"
+              }`}
+            >
+              <div className="relative w-32 h-32 md:w-48 md:h-48 lg:w-58 lg:h-58 flex items-center justify-center overflow-hidden rounded-2xl shadow-2xl ring-4 ring-white/20 hover:ring-white/40 transition-all duration-300 hover:scale-105">
+                <img
+                  src="/logo_as.png"
+                  alt="AS Pinturas Logo"
+                  className="w-full h-full object-containt"
+                />
+              </div>
+            </div>
+
             {/* Badge */}
             <div
-              className={`transition-all duration-1000 ${
+              className={`transition-all duration-1000 delay-100 ${
                 isLoaded
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 -translate-y-10"

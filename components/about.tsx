@@ -137,14 +137,14 @@ export default function About() {
           {/* Image */}
           <div
             ref={imageRef}
-            className={`rounded-xl overflow-hidden shadow-lg h-170 bg-gradient-to-br from-blue-400 to-orange-400 transition-all duration-1000 delay-200 ${
+            className={`rounded-xl overflow-hidden shadow-lg h-96 bg-gradient-to-br from-blue-400 to-orange-400 transition-all duration-1000 delay-200 ${
               isImageVisible
                 ? "opacity-100 translate-x-0"
                 : "opacity-0 -translate-x-20"
             }`}
           >
             <img
-              src="/aspinturasimage.jpeg"
+              src="/2148137752.jpg"
               alt="Oficina Comercial Prisma"
               className="w-full h-full object-containt"
             />
