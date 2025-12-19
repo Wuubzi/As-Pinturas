@@ -118,6 +118,26 @@ export default function Products() {
         "/stucco-coating-architectural-finish.jpg",
       ],
     },
+        {
+      id: 7,
+      name: "Elaboración de pinturas",
+      description:
+        "Pintura de alta calidad elaborada según cada necesidad, ideal para acabados decorativos y protectores en superficies internas y externas. Excelente adherencia, cobertura uniforme y durabilidad superior.",
+
+    features: [
+  "Elaboración personalizada según cada necesidad",
+  "Excelente cobertura y adherencia",
+  "Alta resistencia al agua y la humedad",
+  "Fácil aplicación y secado uniforme",
+  "Amplia variedad de tonos y acabados",
+],
+
+      images: [
+        "/decorative-stucco-texture-finish.jpg",
+        "/textured-stucco-wall-exterior.jpg",
+        "/stucco-coating-architectural-finish.jpg",
+      ],
+    },
   ];
 
   // Auto-play carousel

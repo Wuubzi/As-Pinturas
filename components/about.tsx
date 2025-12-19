@@ -6,7 +6,7 @@ export default function About() {
   const values = [
     {
       title: "Especialización",
-      description:
+       description:
         "Expertos en productos de alto rendimiento para mantenimiento, señalización y embellecimiento.",
     },
     {
