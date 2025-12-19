@@ -126,9 +126,13 @@ export default function About() {
             Quiénes Somos
           </h2>
           <p className="text-xl text-muted max-w-3xl mx-auto">
-            Pintura As es una comercializadora especializada con más de una
-            década de experiencia en distribución de productos de construcción y
-            acabados.
+            Pinturas AS es una marca de pinturas y productos derivados,
+            orientada a personas expertas y con buen gusto que buscan
+            transformar espacios. Utilizamos materias primas de alta calidad
+            para producir colores vivos, ofreciendo una excelente relación entre
+            calidad, rendimiento y precio. Nuestra constante investigación e
+            innovación nos permite mantenernos a la vanguardia de la industria,
+            ayudando a crear espacios pensados para el bienestar y la felicidad.
           </p>
         </div>
 

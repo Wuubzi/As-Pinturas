@@ -44,11 +44,11 @@ export default function Hero() {
                   : "opacity-0 scale-75 -translate-y-10"
               }`}
             >
-              <div className="relative w-32 h-32 md:w-48 md:h-48 lg:w-58 lg:h-58 flex items-center justify-center overflow-hidden rounded-2xl shadow-2xl ring-4 ring-white/20 hover:ring-white/40 transition-all duration-300 hover:scale-105">
+              <div className="relative w-50 h-50 md:w-60 md:h-60 flex items-center justify-center p-3">
                 <img
-                  src="/logo_as.png"
+                  src="/logo.png"
                   alt="AS Pinturas Logo"
-                  className="w-full h-full object-containt"
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>
